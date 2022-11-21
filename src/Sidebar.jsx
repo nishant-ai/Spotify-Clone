@@ -11,6 +11,7 @@ import Library from "./assets/Library.png";
 function Sidebar() {
   const [{ playlists }, dispatch] = useDataLayerValue();
   console.log(playlists);
+  dispatch();
 
   return (
     <div className="sidebar">

@@ -6,6 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 
 function Header({ spotify }) {
   const [{ user }, dispatch] = useDataLayerValue();
+  dispatch();
 
   return (
     <div className="header">
